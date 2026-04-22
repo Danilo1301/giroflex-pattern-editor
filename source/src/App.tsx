@@ -6,8 +6,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/giroflex-pattern-editor/" element={<Home />} />
-        <Route path="/giroflex-pattern-editor/patterns" element={<Patterns />} />
+        <Route path="*" element={<Patterns />} />
       </Routes>
     </>
   )
