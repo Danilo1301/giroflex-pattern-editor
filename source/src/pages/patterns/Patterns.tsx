@@ -422,7 +422,7 @@ const PatternsPage: React.FC = () => {
     }
 
   return (
-    <div className='container-md patternBg'>
+    <div className='container-fluid patternBg'>
       <h3>Preview</h3>
       <div className='d-flex gap-2 justify-content-center'>
         {current.values.map((v, i) => <Led key={i} on={v === 1} step={current} useCustomColor={useCustomColor} />)}
